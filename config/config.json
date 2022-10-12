@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "j-query-sample-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/jQuerySample/JQuerySampleWebPart.js",
+          "manifest": "./src/webparts/jQuerySample/JQuerySampleWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "JQuerySampleWebPartStrings": "lib/webparts/jQuerySample/loc/{locale}.js"
+  }
+}

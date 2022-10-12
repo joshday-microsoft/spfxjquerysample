@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "spfxjquerysample-client-side-solution",
+    "id": "aa296f7e-7574-4f0f-9e4c-6e0e1d025e50",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "spfxjquerysample description"
+      },
+      "longDescription": {
+        "default": "spfxjquerysample description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "spfxjquerysample Feature",
+        "description": "The feature that activates elements of the spfxjquerysample solution.",
+        "id": "52a000ad-9e65-48f4-9480-fb1fd390a278",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/spfxjquerysample.sppkg"
+  }
+}
